@@ -121,4 +121,10 @@ Git 간편 안내서에서 따옴
   : git fetch origin
   : git reset --hard origin/master 
 
-  
+10. 종료된 Feature 을 통합하기 
+  git merge를 수행할 때 --no-ff flag를 사용하면 feature branch의 기록 정보가 
+  사라지지 않고 정리될 수 있다. 
+  : git checkout develop
+  : git merge --no-ff myfeature
+  : git branch -d myfeature
+  : git push origin develop   
