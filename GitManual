@@ -1,5 +1,8 @@
 Git 간편 안내서에서 따옴
   - http://rogerdudler.github.io/git-guide/index.ko.html
+  
+더 진전된 Git 사용법 
+  - http://nvie.com/posts/a-successful-git-branching-model/
 
 1. git init : 새로운 저장소 만들기 
    폴더를 하나 만들고, 그 안에서 
